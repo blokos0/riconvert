@@ -1,3 +1,0 @@
--m=1 pixel:#ffffff>>>>>>>>> pixel:#ffffff>>>>>>>>>
-pixel:#ffffff>>>>>>>>> pixel:#ffffff>>>>>>>>>
-
