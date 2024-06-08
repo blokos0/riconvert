@@ -24,10 +24,12 @@ for i in range(rows):
                 countofstacks += 1
             else:
                 if imgindex == 1:
-                    str += f"pixel:{colhex}" # the first frame should have the tile name
+                    str += f"keke:{colhex}" # the first frame should have the tile name
                 else:
                     str += f"{animstr}:{colhex}"
                     countofstacks -= 2
+            if countofstacks < 0:
+                countofstacks = 0
         if j != cols - 1:
             str += " "
     str += "\n"
